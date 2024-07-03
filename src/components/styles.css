@@ -1,11 +1,15 @@
 /* src/components/styles.css */
+* {
+    background-color: #000000;
+}
+
 .homepage {
     font-family: Arial, sans-serif;
     text-align: center;
   }
   
   header {
-    background-color: #333;
+    background-color:#000000;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -19,7 +23,7 @@
   .hero {
     position: relative;
     height: 600px;
-    background-color: #f0f0f0;
+    background-color: #fdfbfb;
   }
   
   .hero img {
@@ -44,10 +48,12 @@
   .overlay h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #fff;
   }
   
   .services {
     padding: 20px;
+    margin-top: auto;
   }
   
   .services ul {
@@ -58,4 +64,10 @@
   
   .services li {
     margin-bottom: 10px;
+    color: white;
+  }
+  section.services {
+    background-color: #000000;
+    padding: 60px;
+    margin-top: 0;
   }
