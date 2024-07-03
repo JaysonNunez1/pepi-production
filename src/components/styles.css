@@ -11,13 +11,13 @@
   header {
     background-color:#000000;
     color: #fff;
-    padding: 20px;
+    padding: 8px;
     text-align: center;
   }
   
   header h1 {
     font-size: 36px;
-    margin-bottom: 10px;
+
   }
   
   .hero {
@@ -70,4 +70,18 @@
     background-color: #000000;
     padding: 60px;
     margin-top: 0;
+  }
+
+  img {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .logo-container {
+    display: inline-block;
+    background-color: #fff; /* or any other background color you prefer */
+    padding: 10px;
+    border-radius: 10px; /* optional, adds a rounded corner effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* optional, adds a subtle shadow effect */
   }
